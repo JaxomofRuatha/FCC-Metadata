@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-const env = require('../config/env');
 
 const index = require('./routes');
 

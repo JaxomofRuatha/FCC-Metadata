@@ -4,6 +4,9 @@ block content
     header
         h1 File Metadata Express Microservice
     main
+        form(action="/file-data" method="post" enctype="multipart/form-data")
+            input(type="file" name="file")
+            input(type="submit")
     footer
     script(
         src="js/client.js"
